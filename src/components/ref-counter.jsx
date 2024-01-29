@@ -9,7 +9,7 @@ export default function RefCounter() {
   }
 
   return (
-    <button className="border p-3" onClick={handleClick}>
+    <button onClick={handleClick}>
       Click Me!
     </button>
   )
