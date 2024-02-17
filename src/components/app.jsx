@@ -5,7 +5,7 @@ import Stopwatch from "./stopwatch"
 
 export default function App() {
   return (
-    <div className="flex min-h-dvh items-center justify-center bg-slate-800 text-slate-200">
+    <div className="flex min-h-dvh items-center justify-center">
       <div className="flex w-96 flex-col gap-5">
         <RefCounter />
         <Stopwatch />
