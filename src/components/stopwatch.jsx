@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef, useState } from "react"
 
 export default function Stopwatch() {
   const [startTime, setStartTime] = useState(null)
@@ -25,10 +25,12 @@ export default function Stopwatch() {
   }
 
   return (
-    <div className='flex flex-col gap-3 border p-3'>
+    <div className="flex flex-col gap-3 border p-3">
       <h1>Time Passed: {secondsPassed.toFixed(3)}</h1>
       <div>
-        <button className='mr-3' onClick={handleStart}>Start</button>
+        <button className="mr-3" onClick={handleStart}>
+          Start
+        </button>
         <button onClick={handleStop}>Stop</button>
       </div>
     </div>

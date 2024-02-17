@@ -1,3 +1,3 @@
 # Escape Hatches
 
-https://zh-hans.react.dev/learn/escape-hatches
+https://react.dev/learn/escape-hatches

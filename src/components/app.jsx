@@ -1,7 +1,7 @@
-import Chat from './chat'
-import DebouncedButton from './debounced-button'
-import RefCounter from './ref-counter'
-import Stopwatch from './stopwatch'
+import Chat from "./chat"
+import DebouncedButton from "./debounced-button"
+import RefCounter from "./ref-counter"
+import Stopwatch from "./stopwatch"
 
 export default function App() {
   return (
@@ -10,9 +10,15 @@ export default function App() {
         <RefCounter />
         <Stopwatch />
         <div className="flex gap-3">
-          <DebouncedButton onClick={() => alert('Spaceship launched!')}>Launch the spaceship</DebouncedButton>
-          <DebouncedButton onClick={() => alert('Soup boiled!')}>Boil the soup</DebouncedButton>
-          <DebouncedButton onClick={() => alert('Lullaby sung!')}>Sing a lullaby</DebouncedButton>
+          <DebouncedButton onClick={() => alert("Spaceship launched!")}>
+            Launch the spaceship
+          </DebouncedButton>
+          <DebouncedButton onClick={() => alert("Soup boiled!")}>
+            Boil the soup
+          </DebouncedButton>
+          <DebouncedButton onClick={() => alert("Lullaby sung!")}>
+            Sing a lullaby
+          </DebouncedButton>
         </div>
         <Chat />
       </div>

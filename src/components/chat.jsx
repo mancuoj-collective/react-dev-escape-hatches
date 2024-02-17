@@ -1,7 +1,7 @@
-import { useRef, useState } from 'react'
+import { useRef, useState } from "react"
 
 export default function Chat() {
-  const [text, setText] = useState('')
+  const [text, setText] = useState("")
   const textRef = useRef(text)
 
   function handleChange(e) {
@@ -11,7 +11,7 @@ export default function Chat() {
 
   function handleClick() {
     setTimeout(() => {
-      alert('Sending: ' + textRef.current)
+      alert("Sending: " + textRef.current)
     }, 3000)
   }
 
