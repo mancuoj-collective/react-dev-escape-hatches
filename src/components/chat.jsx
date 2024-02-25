@@ -22,7 +22,7 @@ export default function Chat() {
         value={text}
         onChange={handleChange}
       />
-      <button className="btn join-item" onClick={handleClick}>
+      <button className="btn btn-outline join-item" onClick={handleClick}>
         Send
       </button>
     </div>

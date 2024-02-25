@@ -31,10 +31,10 @@ export default function Stopwatch() {
         <div className="stat-value">{secondsPassed.toFixed(3)}</div>
       </div>
       <div className="join join-vertical">
-        <button className="btn join-item" onClick={handleStart}>
+        <button className="btn btn-outline join-item" onClick={handleStart}>
           Start
         </button>
-        <button className="btn join-item" onClick={handleStop}>
+        <button className="btn btn-outline join-item" onClick={handleStop}>
           Stop
         </button>
       </div>

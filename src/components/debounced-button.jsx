@@ -11,7 +11,7 @@ function DebouncedButton({ onClick, children }) {
   }
 
   return (
-    <button className="btn join-item" onClick={handleClick}>
+    <button className="btn btn-outline join-item" onClick={handleClick}>
       {children}
     </button>
   )
