@@ -25,13 +25,18 @@ export default function Stopwatch() {
   }
 
   return (
-    <div className="flex flex-col gap-3 border p-3">
-      <h1>Time Passed: {secondsPassed.toFixed(3)}</h1>
-      <div>
-        <button className="mr-3" onClick={handleStart}>
+    <div className="flex">
+      <div className="stat">
+        <div className="stat-title">Time Passed</div>
+        <div className="stat-value">{secondsPassed.toFixed(3)}</div>
+      </div>
+      <div className="join join-vertical">
+        <button className="btn join-item" onClick={handleStart}>
           Start
         </button>
-        <button onClick={handleStop}>Stop</button>
+        <button className="btn join-item" onClick={handleStop}>
+          Stop
+        </button>
       </div>
     </div>
   )

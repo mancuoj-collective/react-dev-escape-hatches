@@ -16,9 +16,15 @@ export default function Chat() {
   }
 
   return (
-    <div className="flex gap-3 border p-3">
-      <input value={text} onChange={handleChange} />
-      <button onClick={handleClick}>Send</button>
+    <div className="join">
+      <input
+        className="input join-item input-bordered w-full"
+        value={text}
+        onChange={handleChange}
+      />
+      <button className="btn join-item" onClick={handleClick}>
+        Send
+      </button>
     </div>
   )
 }

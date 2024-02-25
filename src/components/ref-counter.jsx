@@ -8,5 +8,9 @@ export default function RefCounter() {
     alert("You clicked " + counterRef.current + " times!")
   }
 
-  return <button onClick={handleClick}>Click Me!</button>
+  return (
+    <button onClick={handleClick} className="btn">
+      Click Me!
+    </button>
+  )
 }
