@@ -2,6 +2,7 @@ import RefCounter from "./ref-counter"
 import DebouncedButtons from "./debounced-button"
 import Stopwatch from "./stopwatch"
 import Chat from "./chat"
+import FocusInput from "./focus-input"
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
         <DebouncedButtons />
         <div className="divider"></div>
         <Chat />
+        <div className="divider"></div>
+        <FocusInput />
       </div>
     </div>
   )
