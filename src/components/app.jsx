@@ -7,8 +7,8 @@ import FocusInput from "./focus-input"
 
 export default function App() {
   return (
-    <div className="flex h-dvh items-center justify-center">
-      <div className="flex w-[500px] flex-col gap-5 p-5">
+    <div className="flex min-h-dvh items-center justify-center">
+      <div className="flex w-[800px] flex-col gap-5 p-12">
         <RefCounter />
         <div className="divider"></div>
         <Stopwatch />
